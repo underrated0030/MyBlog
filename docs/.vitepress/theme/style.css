@@ -330,24 +330,9 @@ body {
   box-shadow: var(--vp-shadow-2);
 }
 
-.VPFeature .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  background: rgba(0, 113, 227, 0.06);
-  font-size: 22px;
-  line-height: 1;
-  margin-bottom: 20px;
-}
-.dark .VPFeature .icon {
-  background: rgba(41, 151, 255, 0.1);
-}
-
 .VPFeature .title {
   font-size: 17px !important;
+  margin-top: 0;
   font-weight: 600 !important;
   letter-spacing: -0.01em;
   color: var(--apple-text) !important;

@@ -14,13 +14,10 @@ hero:
       link: /about
 
 features:
-  - icon: ✦
-    title: 思考
+  - title: 思考
     details: 记录技术与设计的深度思考，在文字中梳理逻辑，沉淀洞见。
-  - icon: ◇
-    title: 创造
+  - title: 创造
     details: 将想法转化为作品，用代码和文字构建有价值的内容。
-  - icon: ◈
-    title: 分享
+  - title: 分享
     details: 知识因分享而增值，让更多人受益于经验的传递。
 ---
