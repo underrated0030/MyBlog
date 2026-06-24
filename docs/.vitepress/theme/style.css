@@ -331,9 +331,19 @@ body {
 }
 
 .VPFeature .icon {
-  font-size: 32px;
-  margin-bottom: 16px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(0, 113, 227, 0.06);
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.dark .VPFeature .icon {
+  background: rgba(41, 151, 255, 0.1);
 }
 
 .VPFeature .title {
