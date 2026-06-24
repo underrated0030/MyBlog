@@ -5,12 +5,17 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
   },
-  "keywords": ["blog", "vitepress"],
+  "keywords": [
+    "blog",
+    "vitepress"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vitepress": "^1.6.4"
   }
 }
